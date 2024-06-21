@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(243, 249, 254);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+header{
+    background-color: rgb(4, 113, 93);
+    width: 100vw;
+    padding: 1.5rem 0;
+    text-align: center;
+    color: white;
+}
+
+#form{
+    background-color: white;
+    width: 90%;
+    max-width: 350px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+
+h2{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+input, button{
+    padding: 0.4rem 0;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+}
+
+input{
+    background-color: rgb(243, 249, 254);
+}
+
+button{
+    background-color: rgb(4, 113, 93);
+    color: white;
+}
+
+.search{
+    background-color: white;
+    margin: auto;
+    width: 90%;
+    max-width: 350px;
+    padding: 1rem 2rem;
+}
+
+.search input {
+    width: 90%;
+}
+
+.divList{
+    background-color: white;
+    width: 90%;
+    max-width: 350px;
+    margin: auto;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+}
+
